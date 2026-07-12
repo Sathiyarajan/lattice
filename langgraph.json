@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "lattice_qa": "./src/loop42_graph_app.py:app"
+  },
+  "env": ".env"
+}

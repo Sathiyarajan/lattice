@@ -1,0 +1,2 @@
+Lattice is a system for building retrieval-augmented generation pipelines.
+It combines vector search with graph-based reasoning.
