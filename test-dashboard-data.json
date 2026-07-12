@@ -1,0 +1,694 @@
+{
+  "generated_at": "2026-07-11T04:50:01.802955+00:00",
+  "summary": {
+    "total_tests": 48,
+    "passed": 48,
+    "failed": 0,
+    "skipped": 0,
+    "total_statements": 1440,
+    "covered_statements": 1412,
+    "missing_statements": 28,
+    "coverage_percent": 98.1
+  },
+  "tests": [
+    {
+      "name": "test_loop00_environment_imports",
+      "classname": "tests.test_all_loops",
+      "time_sec": 2.771,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop01_embeddings",
+      "classname": "tests.test_all_loops",
+      "time_sec": 2.621,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop02_sqlite_store",
+      "classname": "tests.test_all_loops",
+      "time_sec": 1.294,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop03_faiss_index",
+      "classname": "tests.test_all_loops",
+      "time_sec": 1.517,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop04_pgvector",
+      "classname": "tests.test_all_loops",
+      "time_sec": 1.248,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop05_rag",
+      "classname": "tests.test_all_loops",
+      "time_sec": 1.447,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop06_metadata_filter",
+      "classname": "tests.test_all_loops",
+      "time_sec": 1.292,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop07_ingest",
+      "classname": "tests.test_all_loops",
+      "time_sec": 0.094,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop08_chunking",
+      "classname": "tests.test_all_loops",
+      "time_sec": 0.001,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop09_pipeline",
+      "classname": "tests.test_all_loops",
+      "time_sec": 1.315,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop10_hybrid",
+      "classname": "tests.test_all_loops",
+      "time_sec": 3.167,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop11_prompt_gen",
+      "classname": "tests.test_all_loops",
+      "time_sec": 1.797,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop12_guardrails",
+      "classname": "tests.test_all_loops",
+      "time_sec": 1.31,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop13_eval",
+      "classname": "tests.test_all_loops",
+      "time_sec": 1.299,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop14_api",
+      "classname": "tests.test_all_loops",
+      "time_sec": 1.46,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop15_table_parsing",
+      "classname": "tests.test_all_loops",
+      "time_sec": 0.003,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop16_multiformat",
+      "classname": "tests.test_all_loops",
+      "time_sec": 0.09,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop17_preprocessing",
+      "classname": "tests.test_all_loops",
+      "time_sec": 0.001,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop18_model_compare",
+      "classname": "tests.test_all_loops",
+      "time_sec": 2.633,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop19_multiquery",
+      "classname": "tests.test_all_loops",
+      "time_sec": 3.645,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop20_tool_calling",
+      "classname": "tests.test_all_loops",
+      "time_sec": 0.536,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop21_multiagent",
+      "classname": "tests.test_all_loops",
+      "time_sec": 2.125,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop22_graph",
+      "classname": "tests.test_all_loops",
+      "time_sec": 0.075,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop23_rigorous_eval",
+      "classname": "tests.test_all_loops",
+      "time_sec": 2.045,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop24_app",
+      "classname": "tests.test_all_loops",
+      "time_sec": 1.435,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop25_schema",
+      "classname": "tests.test_all_loops",
+      "time_sec": 0.027,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop26_multisource_graph",
+      "classname": "tests.test_all_loops",
+      "time_sec": 0.029,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop27_extraction",
+      "classname": "tests.test_all_loops",
+      "time_sec": 1.14,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop28_ned",
+      "classname": "tests.test_all_loops",
+      "time_sec": 1.318,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop29_graph_features",
+      "classname": "tests.test_all_loops",
+      "time_sec": 0.072,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop30_gnn",
+      "classname": "tests.test_all_loops",
+      "time_sec": 0.353,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop31_graphrag",
+      "classname": "tests.test_all_loops",
+      "time_sec": 1.704,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop32_nl_to_cypher",
+      "classname": "tests.test_all_loops",
+      "time_sec": 1.014,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop33_qa_agent",
+      "classname": "tests.test_all_loops",
+      "time_sec": 2.642,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop34_langchain_basics",
+      "classname": "tests.test_all_loops",
+      "time_sec": 1.251,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop35_langchain_indexing",
+      "classname": "tests.test_all_loops",
+      "time_sec": 2.145,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop36_rag_chain",
+      "classname": "tests.test_all_loops",
+      "time_sec": 1.617,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop37_stategraph_memory",
+      "classname": "tests.test_all_loops",
+      "time_sec": 1.868,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop38_agent_architectures",
+      "classname": "tests.test_all_loops",
+      "time_sec": 0.415,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop39_reflection_supervisor",
+      "classname": "tests.test_all_loops",
+      "time_sec": 2.56,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop40_self_corrective_rag",
+      "classname": "tests.test_all_loops",
+      "time_sec": 7.705,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop41_tracing_monitoring",
+      "classname": "tests.test_all_loops",
+      "time_sec": 8.913,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop42_graph_app",
+      "classname": "tests.test_all_loops",
+      "time_sec": 1.429,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop43_chatbot_app",
+      "classname": "tests.test_all_loops",
+      "time_sec": 1.363,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop14_api_query_endpoint",
+      "classname": "tests.test_supplemental",
+      "time_sec": 1.419,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop24_streamlit_app_query_flow",
+      "classname": "tests.test_supplemental",
+      "time_sec": 0.527,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop43_chatbot_app_chat_flow",
+      "classname": "tests.test_supplemental",
+      "time_sec": 0.428,
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "test_loop40_dataset_already_exists_branch",
+      "classname": "tests.test_supplemental",
+      "time_sec": 13.874,
+      "status": "passed",
+      "detail": null
+    }
+  ],
+  "coverage_by_file": [
+    {
+      "file": "loop10_hybrid.py",
+      "statements": 41,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop11_prompt_gen.py",
+      "statements": 26,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop12_guardrails.py",
+      "statements": 32,
+      "missing": 1,
+      "percent": 96.9,
+      "missing_lines": [
+        22
+      ]
+    },
+    {
+      "file": "loop13_eval.py",
+      "statements": 27,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop14_api.py",
+      "statements": 21,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop15_table_parsing.py",
+      "statements": 15,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop16_multiformat.py",
+      "statements": 46,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop17_preprocessing.py",
+      "statements": 39,
+      "missing": 1,
+      "percent": 97.4,
+      "missing_lines": [
+        32
+      ]
+    },
+    {
+      "file": "loop18_model_compare.py",
+      "statements": 27,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop19_multiquery.py",
+      "statements": 37,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop1_embeddings.py",
+      "statements": 16,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop20_tool_calling.py",
+      "statements": 32,
+      "missing": 2,
+      "percent": 93.8,
+      "missing_lines": [
+        45,
+        52
+      ]
+    },
+    {
+      "file": "loop21_multiagent.py",
+      "statements": 40,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop22_graph.py",
+      "statements": 22,
+      "missing": 3,
+      "percent": 86.4,
+      "missing_lines": [
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "file": "loop23_rigorous_eval.py",
+      "statements": 59,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop24_app.py",
+      "statements": 30,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop25_schema.py",
+      "statements": 17,
+      "missing": 1,
+      "percent": 94.1,
+      "missing_lines": [
+        71
+      ]
+    },
+    {
+      "file": "loop26_multisource_graph.py",
+      "statements": 23,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop27_extraction.py",
+      "statements": 52,
+      "missing": 3,
+      "percent": 94.2,
+      "missing_lines": [
+        33,
+        34,
+        49
+      ]
+    },
+    {
+      "file": "loop28_ned.py",
+      "statements": 36,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop29_graph_features.py",
+      "statements": 21,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop2_sqlite_store.py",
+      "statements": 33,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop30_gnn.py",
+      "statements": 53,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop31_graphrag.py",
+      "statements": 36,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop32_nl_to_cypher.py",
+      "statements": 33,
+      "missing": 3,
+      "percent": 90.9,
+      "missing_lines": [
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "file": "loop33_qa_agent.py",
+      "statements": 59,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop34_langchain_basics.py",
+      "statements": 28,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop35_langchain_indexing.py",
+      "statements": 25,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop36_rag_chain.py",
+      "statements": 22,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop37_stategraph_memory.py",
+      "statements": 35,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop38_agent_architectures.py",
+      "statements": 60,
+      "missing": 2,
+      "percent": 96.7,
+      "missing_lines": [
+        10,
+        11
+      ]
+    },
+    {
+      "file": "loop39_reflection_supervisor.py",
+      "statements": 51,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop3_faiss_index.py",
+      "statements": 26,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop40_self_corrective_rag.py",
+      "statements": 61,
+      "missing": 4,
+      "percent": 93.4,
+      "missing_lines": [
+        63,
+        64,
+        68,
+        69
+      ]
+    },
+    {
+      "file": "loop41_tracing_monitoring.py",
+      "statements": 40,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop42_graph_app.py",
+      "statements": 21,
+      "missing": 4,
+      "percent": 81.0,
+      "missing_lines": [
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "file": "loop43_chatbot_app.py",
+      "statements": 34,
+      "missing": 2,
+      "percent": 94.1,
+      "missing_lines": [
+        27,
+        28
+      ]
+    },
+    {
+      "file": "loop4_pgvector.py",
+      "statements": 23,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop5_rag.py",
+      "statements": 31,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop6_metadata_filter.py",
+      "statements": 26,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop7_ingest.py",
+      "statements": 30,
+      "missing": 2,
+      "percent": 93.3,
+      "missing_lines": [
+        16,
+        17
+      ]
+    },
+    {
+      "file": "loop8_chunking.py",
+      "statements": 21,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    },
+    {
+      "file": "loop9_pipeline.py",
+      "statements": 33,
+      "missing": 0,
+      "percent": 100.0,
+      "missing_lines": []
+    }
+  ]
+}
